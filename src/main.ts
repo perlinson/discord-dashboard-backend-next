@@ -8,7 +8,7 @@ async function bootstrap() {
   app.enableCors({
     credentials: true,
     maxAge: 40,
-    origin: WEB_URL,
+    origin: 'https://okto-bot-dashboard-next.vercel.app',
     allowedHeaders: ['Content-Type', 'Authorization'],
     methods: ['GET', 'HEAD', 'POST', 'DELETE', 'PATCH'],
   });
